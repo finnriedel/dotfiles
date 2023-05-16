@@ -6,10 +6,16 @@ To maintan my .dotfiles sym-link- and hassle-free, i am using a bare GitHub repo
 
 - Create a GitHub Repository
 - Clone repo with --bare flag
-``` git clone --bare https://github.com/finnriedel/dotfiles ```
+``` 
+git clone --bare https://github.com/finnriedel/dotfiles 
+```
 - Create an alias in the .bashrc config
-``` alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME' ```
+```
+ alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME'
+```
 - Reload bash and you're ready to add, commit and push your .dotfiles
-``` dotfiles add .bashrc
+``` 
+dotfiles add .bashrc
 dotfiles commit -m "Added .bashrc config"
-dotfiles push ```
+dotfiles push 
+```
