@@ -6,4 +6,4 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 199)\][\[$(tput setaf 202)\]\u\[$(tpu
 
 alias ls='ls --color=auto' #Color files in ls
 alias frupdate='sudo pacman -Syu'
-alias frconfig='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME'
